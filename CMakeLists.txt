@@ -14,10 +14,10 @@ include(${VTK_USE_FILE})
 
 set (SOURCES
      main.cpp
-     vtkgeojsonreader.cpp
-     vtkgeojsonreader.h
-     vtkgeojsonfeature.cpp
-     vtkgeojsonfeature.h)
+     vtkGeoJSONReader.cxx
+     vtkGeoJSONReader.h
+     vtkGeoJSONFeature.cxx
+     vtkGeoJSONFeature.h)
 
 add_executable(run ${SOURCES})
 target_link_libraries(run ${VTK_LIBRARIES})
